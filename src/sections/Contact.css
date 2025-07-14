@@ -1,0 +1,167 @@
+.grandparent-container {
+  display: flex;
+  padding: 2%;
+  margin: 5%;
+  
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: column;
+  padding-bottom: 5%;
+  
+}
+
+.parent-container {
+  display: flex;
+  
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: row;
+  bottom: 2rem;
+
+}
+
+.entry-details {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 70%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.entry-details h2 {
+  display: flex;
+  justify-content: flex-start;
+  color: #000;
+}
+
+.floating-input {
+  display: block;
+  width: 80%;
+  padding: 1.25rem 0.75rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  background: #cdc3ba31;
+  outline: none;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.floating-message {
+  display: block;
+  width: 80%;
+  /* height: 10rem;     */
+  padding: 1.25rem 0.75rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  background: #cdc3ba31;
+  outline: none;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.floating-input::placeholder {
+  position: absolute;
+  top: 1.25rem;
+  left: 0.75rem;
+  font-size: 1rem;
+  color: #aaa;
+  transition: 0.2s ease;
+  pointer-events: none;
+}
+
+.floating-input:focus::placeholder,
+.floating-input:not(:placeholder-shown)::placeholder {
+  transform: translateY(-1.2rem);
+  font-size: 0.75rem;
+  color: #064381;
+}
+
+
+.socials-container{
+     display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+ 
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+   gap: 1rem; 
+}
+
+.socials img{
+  width: 3.5rem;
+  height: 3.5rem;
+  cursor: pointer;
+}
+
+
+.socials-text h3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.socials-text p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+@media (max-width: 1000px){
+
+  .socials img{
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+}
+
+@media (max-width: 750px){
+
+  .socials-container {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+}
+
+  .contact-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+  }
+  .contact-pic img{
+
+    width: 80%;
+    height: 40%;
+   
+  }
+}

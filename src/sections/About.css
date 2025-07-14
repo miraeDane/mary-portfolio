@@ -1,0 +1,95 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 10rem;
+  gap: 2rem;
+}
+
+.girlalu {
+  width: 150%;
+}
+.girl-working {
+  padding-left: 2rem;
+}
+
+.about-me {
+  padding-right: 10rem;
+}
+.about {
+  border-bottom: #fff 2px solid;
+}
+
+.greeting {
+  padding-top: 2rem;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
+.greeting-text {
+  font-size: 110%;
+}
+
+.cta {
+  width: clamp(20rem, 50vw, 40rem);
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+.why-me {
+  padding: 1rem;
+  width: clamp(15rem, 25vw, 25rem);
+  top: 2rem;
+  font-size: 150%;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #064381;
+  border-radius: 20px;
+}
+
+@media (max-width: 1500px) {
+  .girlalu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 3rem;
+  }
+
+  .about-me {
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .girl-working {
+    display: flex;
+    justify-content: center;
+  }
+
+  .girlalu {
+    width: 90%;
+  }
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 3rem;
+  }
+}
