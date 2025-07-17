@@ -1,7 +1,7 @@
 import philsafe from "../assets/philsafe.png";
 import suroyta from "../assets/suroyta.png";
 import qt from "../assets/qt.png";
-import resume from "../assets/resume.png";
+import vehicon from "../assets/vehicon.png";
 
 import "./Projects.css";
 
@@ -19,9 +19,9 @@ function Projects() {
       description: "A faith-based app designed to help users grow in their relationship with God. It features verse of the day, scripture reflections, and prayer request form to encourage daily spiritual habits and meaningful stillness.",
     },
     {
-      photo: resume,
-      projectName: "Resume Generator",
-      description: "A user-friendly resume builder optimized for ATS (Applicant Tracking Systems). This tool helps job seekers create clean, structured, and keyword-rich resumes that increase their chances of passing automated screening and landing interviews.",
+      photo: vehicon,
+      projectName: "Vehicon",
+      description: "Vehicon is a modern car health monitoring application designed to help car owners track, maintain, and understand their vehicle's status in real-time. It’s built to improve vehicle longevity, prevent breakdowns, and give users peace of mind while driving.",
     },
     {
       photo: suroyta,
